@@ -19,9 +19,9 @@ export default function Rountinecontainer() {
         <button style={gradientStyle} className='py-5 px-16 rounded-[34px] text-2xl ml-16 mb-16 xl:px-11 xl:py-4 xl:text-lg xl:ml-32 '>Get Started Free</button>
         <Image className=' ml-[20rem] relative  bottom-[6.7rem] xl:w-[1rem] xl:ml-[19.5rem] xl:mt-1 ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
         </div>
-        <div className='routineyoga xl:-mt-30 xl:bottom-[24rem] relative xl:ml-[40rem] '>
-        <Image className=' relative  left-8 bottom-10 xl:bottom-40 xl:-ml-4 ' src={routineyoga1} alt='daylight' height={80} width={280}/>
-        <Image className=' relative xl:-mt-32 left-16 bottom-24 -z-10' src={routineyoga2} alt='daylight' height={80} width={280}/>
+        <div className='routineyoga xl:-mt-30 xl:bottom-[24rem] relative xl:ml-[42rem] '>
+        <Image className=' relative  left-8 bottom-10 xl:bottom-40 xl:-ml-4 xl:w-[53%] ' src={routineyoga1} alt='daylight' height={80} width={280}/>
+        <Image className=' relative xl:-mt-32 left-16 bottom-24 -z-10 xl:w-[53%] ' src={routineyoga2} alt='daylight' height={80} width={280}/>
         <Image className=' -mt-32 relative top-[-2rem] ml-[4rem]   ' src={Boxroutine2} alt='daylight' height={80} width={150}/>
         <Image className=' -mt-32 top-[-11rem] ml-[11rem] relative' src={Boxroutine1} alt='daylight' height={80} width={150}/>
         </div>

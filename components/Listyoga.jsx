@@ -13,7 +13,7 @@ export default function Listyoga() {
   return (
     <div>
       <div className=' text-center items-center'>
-        <p className=' text-2xl text-[#220953] font-semibold top-12 relative mr-[19rem] xl:mr-[50rem] xl:text-5xl xl:font-semibold xl:top-16 '>#01</p>
+        <p className=' text-2xl text-[#220953] font-semibold top-12 relative mr-[17rem] xl:mr-[50rem] xl:text-5xl xl:font-semibold xl:top-16 '>#01</p>
         <div className='listyoga xl:ml-[16rem] relative xl:top-8  '>
         <Image className=' relative top-[-3.8rem] z-10 ml-[6rem]  ' src={listyoga} alt='daylight' height={80} width={220}/> 
          <div className=' bg-[#E5D9fD] py-[3.4rem] w-[72%] relative bottom-[10rem] ml-[5rem] rounded-[58px] xl:w-[24%] '></div>

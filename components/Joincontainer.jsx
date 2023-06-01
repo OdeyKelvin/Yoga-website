@@ -14,7 +14,7 @@ export default function Joincontainer() {
            <div className=' mx-3 relative rounded-[34px] xl:top-6 bg-white text-[#5a4580] px-6 py-6 xl:w-[52%] xl:ml-[14rem] '>For latest update send mail</div>
            <div className=' relative mt-10 -ml-8  right-4 xl:ml-[22rem] xl:left-28 xl:bottom-[4.9rem] '>
         <button style={gradientStyle} className='py-5 xl:py-3 px-24 rounded-[34px] text-2xl ml-16 mb-16 xl:w-[30%] xl:px-4 xl:text-lg  '>Subscribe</button>
-        <Image className=' -mt-28  ml-[17.4rem] relative top-3 xl:right-[4.7rem] ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
+        <Image className=' -mt-28  ml-[17.4rem] relative top-1 xl:right-[4.7rem] ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
         </div>
         </div>
       
