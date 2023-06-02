@@ -34,10 +34,9 @@ export default function Navbar() {
        
        <div onClick={handleNav}>
          {/* hamburger icon  */}
-                     <div><Image className=' md:hidden ml-[17rem] mt-8' src={hambugermenu} alt='daylight' height={80} width={20}/></div>
+                     <div><Image className=' md:hidden ml-[16rem] mt-8' src={hambugermenu} alt='daylight' height={80} width={20}/></div>
        </div>
        
-       <div><Image className=' md:hidden relative right-[3.4rem] mt-8' src={daylighticon} alt='daylight' height={80} width={20}/></div>
     {/* Mobile Menu */}
       {/* Overlay */}
       <div
@@ -66,16 +65,16 @@ export default function Navbar() {
               </div>
             </div>
             <ul className=' space-y-16 mt-20 text-2xl'>
-            <li className='text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text'> 
+            <li className=' hover:scale-105 ease-in duration-300 text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text'> 
              <Link href='/'> Home</Link>
           </li>
-          <li>
+          <li className=' hover:scale-105 ease-in duration-300'>
              <Link href='/'>Health</Link>
           </li>
-          <li>
+          <li className=' hover:scale-105 ease-in duration-300'>
              <Link href='/'>Routine</Link>
           </li>
-          <li>
+          <li className=' hover:scale-105 ease-in duration-300'>
              <Link href='/'>Follow</Link>
              
           </li>

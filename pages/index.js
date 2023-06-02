@@ -7,7 +7,6 @@ import Joincontainer from '@/components/Joincontainer'
 import Listyoga from '@/components/Listyoga'
 import Rountinecontainer from '@/components/Rountinecontainer'
 import Head from 'next/head'
-
 export default function Home() {
   return (
    <div>
@@ -16,6 +15,7 @@ export default function Home() {
         <meta name="description" content="Yoga Arena" />
         <link rel="icon" href="/daylight.png" />
       </Head>
+
     <Hero/>
     <Listyoga/>
     <Healthcontainer/>
