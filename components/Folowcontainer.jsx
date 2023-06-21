@@ -14,16 +14,16 @@ export default function Folowcontainer() {
   return (
     <div>
         
-       <div className=' mb-32 xl:-mt-32'>
-        <p className="follow  text-center relative top-32 text-5xl xl:text-5xl xl:w-[23%] xl:ml-[32rem]  ">Follow Us On Instagram </p>
-        <p  style={gradientStyle} className="yola relative top-32 text-center text-5xl xl:top-[9rem] ">#YOGA</p>
-        <Image className=' relative top-[10rem] ml-[8rem] xl:w-[5%]  xl:ml-[40rem]' src={Buttonfollow} alt='daylight' height={80} width={100}/>
+       <div className=' mb-32 md:-mt-[57rem]'>
+        <p className="follow  text-center relative top-32 text-5xl md:w-[50%] md:ml-[12rem] md:leading-normal  ">Follow Us On Instagram </p>
+        <p  style={gradientStyle} className=" p-2 yola relative top-32 text-center text-5xl  ">#YOGA</p>
+        <Image className=' relative top-[11rem] ml-[8rem] md:ml-[23rem] md:w-[7%] md:top-[9rem] ' src={Buttonfollow} alt='daylight' height={80} width={100}/>
        </div>
-       <div className=' followyoga xl:-mt-32 '>
-       <Image className=' xl:-mt-32 relative top-20 ml-10 xl:ml-[20rem] xl:top-[-7rem] ' src={followyoga1} alt='daylight' height={80} width={140}/>
-       <Image className=' xl:-mt-32 ml-48 xl:ml-[54rem] xl:bottom-[13rem] relative bottom-20 ' src={followyoga2} alt='daylight' height={80} width={140}/>
-       <Image className=' xl:-mt-32 ml-10 relative bottom-20 xl:ml-[20rem] xl:top-1   ' src={followyoga3} alt='daylight' height={80} width={240}/>
-       <Image className=' xl:-mt-32 ml-24 relative bottom-14 xl:ml-[49rem] ' src={followyoga4} alt='daylight' height={80} width={240}/>
+       <div className=' followyoga md:-mt-32 '>
+       <Image className=' md:-mt-32 relative top-20 ml-10 md:ml-[6.5rem] md:-top-[11rem] ' src={followyoga1} alt='daylight' height={80} width={140}/>
+       <Image className=' md:-mt-32 ml-48 relative bottom-20 md:ml-[35rem] md:-top-[16rem] ' src={followyoga2} alt='daylight' height={80} width={140}/>
+       <Image className=' md:-mt-32 ml-10 relative bottom-20 md:ml-[9rem] md:top-[-2rem]  ' src={followyoga3} alt='daylight' height={80} width={240}/>
+       <Image className=' md:-mt-32 ml-24 relative bottom-14 md:ml-[26rem] md:top-[-4rem]  ' src={followyoga4} alt='daylight' height={80} width={240}/>
        </div>
        
     </div>

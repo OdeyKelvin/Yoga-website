@@ -11,9 +11,9 @@ export default function Navbar() {
     };
   return (
     <div className=' ' >
-       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16  '>
-          <h1 className=' relative text-2xl left-[1rem] md:left-[12rem] mt-8 text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text '>Yoga</h1>
-       <ul className=' hidden text-[#220953] text-lg font-medium xl:mt-10 md:flex justify-between space-x-14 ml-[36rem] mt-6  '>
+       <div className='flex justify-between items-center w-full h-full px-2  '>
+          <h1 className=' relative text-2xl left-[1rem] mt-8 text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text md:text-5xl md:ml-[5rem] lg:left-[5rem] justify-center '>Yoga</h1>
+       <ul className=' hidden text-[#220953] md:hidden text-lg font-medium lg:space-x-5 lg:mt-10 relative justify-center lg:ml-[32rem] lg:block lg:flex  '>
           <li className=' text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text'> 
              <Link href='/'> Home</Link>
           </li>
@@ -28,27 +28,28 @@ export default function Navbar() {
              
           </li>
           
-          <div><Image className=' ml-6 mt-1' src={daylighticon} alt='daylight' height={80} width={20}/></div>
+          <div><Image className='  ml-6 md:mr-10 mt-1 ' src={daylighticon} alt='daylight' height={80} width={20}/></div>
      
        </ul>
        
        <div onClick={handleNav}>
          {/* hamburger icon  */}
-                     <div><Image className=' md:hidden ml-[16rem] mt-8' src={hambugermenu} alt='daylight' height={80} width={20}/></div>
+                     <div><Image className='  ml-[17rem] mt-8 relative  md:left-[5 rem] lg:hidden ' src={hambugermenu} alt='daylight' height={80} width={20}/></div>
        </div>
        
+       <div><Image className=' relative right-[3.4rem] mt-8 md:hidden  ' src={daylighticon} alt='daylight' height={80} width={20}/></div>
     {/* Mobile Menu */}
       {/* Overlay */}
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 z-[100]' : ''
+          nav ? ' fixed left-0 top-0 w-full h-screen md:fixed md:left-0 md:top-0 md:w-full md:h-full bg-black/70 z-[100]' : ''
         }
       >
         {/* Side Drawer Menu */}
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] z-[100] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] z-[100] h-screen md:h-full bg-[#ecf0f3] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -65,16 +66,16 @@ export default function Navbar() {
               </div>
             </div>
             <ul className=' space-y-16 mt-20 text-2xl'>
-            <li className=' hover:scale-105 ease-in duration-300 text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text'> 
+            <li className='text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text'> 
              <Link href='/'> Home</Link>
           </li>
-          <li className=' hover:scale-105 ease-in duration-300'>
+          <li>
              <Link href='/'>Health</Link>
           </li>
-          <li className=' hover:scale-105 ease-in duration-300'>
+          <li>
              <Link href='/'>Routine</Link>
           </li>
-          <li className=' hover:scale-105 ease-in duration-300'>
+          <li>
              <Link href='/'>Follow</Link>
              
           </li>

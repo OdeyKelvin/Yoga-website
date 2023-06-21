@@ -11,17 +11,17 @@ export default function Healthcontainer() {
       };
   return (
     <div>
-      <div className=' justify-between'>
-        <p className=' text-center relative top-[-11rem] text-[#220953]  text-4xl xl:text-5xl xl:w-[32%] xl:ml-[40rem] xl:top-[-19rem] '>Bring Happiness To Good Health!</p>
-        <p className=' p-4 text-[#4B3E65] text-center relative w-[100%]  top-[-8rem] xl:w-[32%] xl:px-[1.1rem] xl:ml-[39rem] xl:-top-[17rem] text-xl xl:text-sm'>If you take care of your good health, take care of your mentality and lead a healthy life with positive thoughts every day.</p>
-        <div className=' -top-14 relative xl:ml-[33rem] xl:-top-[14rem] '>
-        <button style={gradientStyle} className='py-5 px-16 rounded-[34px] text-2xl ml-16 mb-16 xl:px-11 xl:py-4 xl:text-lg xl:ml-32 '>let &#39;s Start</button>
-        <Image className=' ml-[15rem] relative  bottom-[6.6rem] xl:w-[1rem] xl:ml-[16rem] xl:mt-1 ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
+      <div className=' justify-between md:mt-40'>
+        <p className=' text-center relative top-[-11rem] text-[#220953]  text-4xl md:w-[33%] md:ml-[26rem] md:top-[-58rem] '>Bring Happiness To Good Health!</p>
+        <p className=' p-4 text-[#4B3E65] text-center relative w-[100%]  top-[-8rem] md:w-[45%] md:ml-[25rem] md:top-[-57rem] md:text-lg '>If you take care of your good health, take care of your mentality and lead a healthy life with positive thoughts every day.</p>
+        <div className=' -top-14 relative md:-top-[56rem] md:ml-[23rem]  '>
+        <button style={gradientStyle} className='py-5 px-16 rounded-[34px] text-2xl ml-16 mb-16 md:text-xl md:py-3 md:px-10 '>let &#39;s Start</button>
+        <Image className=' ml-[15rem] relative  bottom-[6.6rem] md:ml-[12.6rem] md:bottom-[6.2rem] ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
         </div>
-        <div className='healthfitness xl:-mt-32 relative -top-10 xl:-top-[30rem] xl:ml-[14rem] '>
-        <Image className='  items-center ml-8 relative -top-3 xl:w-[31%] ' src={healthfitness} alt='daylight' height={80} width={310}/> 
-        <Image className=' xl:-mt-32 relative bottom-[19rem] ml-[2rem] xl:bottom-[15rem] xl:right-6' src={Descriptionboxhealth2} alt='daylight' height={80} width={150}/> 
-        <Image className=' xl:-mt-32 relative bottom-[10rem] w-[34%] xl:w-[10%]  ml-[14rem] xl:left-12 xl:top-20' src={Descriptionboxhealth1} alt='daylight' height={80} width={150}/>
+        <div className='healthfitness relative -top-10 md:top-[-80rem] md:ml-10 '>
+        <Image className='  items-center ml-8 relative -top-3 ' src={healthfitness} alt='daylight' height={80} width={310}/> 
+        <Image className=' md:-mt-32 relative bottom-[19rem] ml-[2rem] md:bottom-[13rem] md:w-[14%] ' src={Descriptionboxhealth2} alt='daylight' height={80} width={150}/> 
+        <Image className=' md:-mt-32 relative bottom-[10rem] w-[34%] md:w-[14%] md:top-[8.9rem] ml-[14rem] md:ml-[14rem] ' src={Descriptionboxhealth1} alt='daylight' height={80} width={150}/>
         </div>
       </div>
     </div>
