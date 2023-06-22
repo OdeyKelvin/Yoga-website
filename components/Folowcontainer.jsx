@@ -15,7 +15,7 @@ export default function Folowcontainer() {
     <div>
         
        <div className=' mb-32 md:-mt-[57rem]'>
-        <p className="follow  text-center relative top-32 text-5xl md:w-[50%] md:ml-[12rem] md:leading-normal  ">Follow Us On Instagram </p>
+        <p className="follow text-[#220953]  text-center relative top-32 text-5xl md:w-[50%] md:ml-[12rem] md:leading-normal  ">Follow Us On Instagram </p>
         <p  style={gradientStyle} className=" p-2 yola relative top-32 text-center text-5xl  ">#YOGA</p>
         <Image className=' relative top-[11rem] ml-[8rem] md:ml-[23rem] md:w-[7%] md:top-[9rem] ' src={Buttonfollow} alt='daylight' height={80} width={100}/>
        </div>
