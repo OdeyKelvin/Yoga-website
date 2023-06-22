@@ -28,7 +28,7 @@ export default function Hero() {
         <div> <Image className='  ml-[17rem] relative right-[14rem] bottom-[4.3rem] ' src={homestar2} alt='daylight' height={80} width={45}/></div> 
         <div> <Image className='  ml-[17rem] relative right-[13rem] bottom-[6.2rem] ' src={homestar3} alt='daylight' height={80} width={15}/></div>
        </div>
-       <p className=' p-2 text-xl relative bottom-[5rem]  items-center md:w-[40%] md:ml-16 md:-top-10 lg:w-[32%] lg:ml-[7rem] '>Calm your mind and body with the best yoga teachers available, relax your day and stay positive.</p>
+       <p className=' p-2 text-xl relative bottom-[5rem] text-[#4B3E65]  items-center md:w-[40%] md:ml-16 md:-top-10 lg:w-[32%] lg:ml-[7rem] '>Calm your mind and body with the best yoga teachers available, relax your day and stay positive.</p>
        <div className='clippath relative md:ml-[-12.7rem] md:bottom-20 '>
          <div>
          <Image className='  ml-[17rem] relative  bottom-[5rem] ' src={clippath1} alt='daylight' height={80} width={20}/>

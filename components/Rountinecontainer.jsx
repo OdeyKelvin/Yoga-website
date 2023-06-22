@@ -15,7 +15,7 @@ export default function Rountinecontainer() {
        <div className=' wrapper md:-mt-[20rem]'>
         <div className=' mt-10 '>
         <p className="text-center relative bottom-20 text-[36px] font-semibold p-2 text-[#220953] md:top-[-44rem] md:ml-10 md:w-[39%] ">Anytime, Any Place, Any Workout</p>
-           <p className="text-[16px] leading-[22px] font-normal ml-4 relative bottom-12 text-center w-[331px] md:top-[-44rem] md:w-[32%] md:ml-[5.5rem] ">Take your routine at any time of your day, with the new videos and with the teachers who will guide you.</p>
+           <p className="text-[16px] leading-[22px] font-normal text-[#4B3E65] ml-4 relative bottom-12 text-center w-[331px] md:top-[-44rem] md:w-[32%] md:ml-[5.5rem] ">Take your routine at any time of your day, with the new videos and with the teachers who will guide you.</p>
            <div className=' relative  right-4 md:top-[-42rem] md:ml-10 '>
         <button style={gradientStyle} className='py-5 px-16 rounded-[34px] text-2xl ml-16 mb-16 md:py-5 md:px-10  md:text-xl   '>Get Started Free</button>
         <Image className=' ml-[20rem] relative  bottom-[6.7rem] md:ml-[16rem]  ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
