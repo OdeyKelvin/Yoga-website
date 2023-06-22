@@ -39,7 +39,7 @@ export default function Hero() {
        <div>
        <button style={gradientStyle} className=' text-[#4B3E65] relative bottom-16   py-5 px-16 rounded-[34px] text-2xl md:text-xl md:right-[5rem]   md:py-5 md:px-12 lg:mr-[20rem]   '>Get Started Free</button>
        <div>
-       <Image className=' ml-[18rem] relative  bottom-[6.6rem] md:ml-[18.8rem] lg:ml-[31.6rem] ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
+       <Image className=' ml-[18rem] relative  bottom-[6.6rem] md:ml-[18.8rem] lg:ml-[32.6rem] ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
        </div>
        </div>
        <div className=' items-center '>
