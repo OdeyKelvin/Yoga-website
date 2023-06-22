@@ -21,7 +21,7 @@ export default function Hero() {
        <h1 className=' text-4xl font-medium mt-8 mr-[4.6rem] md:mr-[7rem] lg:text-6xl lg:ml-[32rem] '>Best</h1>
        <h1 className=' text-4xl font-medium mt-4 ml-5  md:mr-[5rem] lg:text-6xl lg:ml-[34rem] '>Teacher</h1>
        </div>
-         <div style={gradientStyle} className=' relative mt-[6rem] rotate-6 font-medium  px-4 py-3 rounded-lg  right-[3rem] text-5xl md:right-[15rem] md:top-10 lg:right-[49rem] lg:top-12 '>Yoga</div>
+         <div style={gradientStyle} className=' relative mt-[6rem] rotate-6 font-medium  px-4 py-3 rounded-lg  right-[3rem] text-5xl md:right-[15rem] md:top-10 lg:right-[52.7rem] lg:top-12 '>Yoga</div>
       </div>
       <div className='homestar mt-3 relative md:ml-[20rem] lg:ml-[38rem]  '>
         <div> <Image className='ml-[17rem] relative right-[13.5rem] bottom-[3rem] ' src={homestar1} alt='daylight' height={80} width={30}/></div>
@@ -39,7 +39,7 @@ export default function Hero() {
        <div>
        <button style={gradientStyle} className=' text-[#4B3E65] relative bottom-16   py-5 px-16 rounded-[34px] text-2xl md:text-xl md:right-[5rem]   md:py-5 md:px-12 lg:mr-[20rem]   '>Get Started Free</button>
        <div>
-       <Image className=' ml-[18rem] relative  bottom-[6.6rem] md:ml-[18.8rem] lg:ml-[30rem] ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
+       <Image className=' ml-[18rem] relative  bottom-[6.6rem] md:ml-[18.8rem] lg:ml-[31.6rem] ' src={arrowrightline} alt='daylight' height={80} width={20}/> 
        </div>
        </div>
        <div className=' items-center '>
@@ -50,7 +50,7 @@ export default function Hero() {
         <p className=' text-lg text-[#220953] '>Yoga Class</p></div>
        </div>
        
-       <Image className=' ml-[3rem] bottom-20  relative items-center md:bottom-[39rem] md:left-[24rem] lg:ml-[23rem] lg:bottom-[42rem] lg:w-[30%]  ' src={homeyoga} alt='daylight' height={80} width={313}/> 
+       <Image className=' ml-[3rem] bottom-20  relative items-center md:bottom-[39rem] md:left-[24rem] lg:ml-[25rem] lg:bottom-[42rem] lg:w-[30%]  ' src={homeyoga} alt='daylight' height={80} width={313}/> 
        
     </div>
   )
