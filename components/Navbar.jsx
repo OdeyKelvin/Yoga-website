@@ -13,7 +13,7 @@ export default function Navbar() {
     <div className=' ' >
        <div className=' flex justify-between items-center w-full h-full px-2 2xl:px-16  '>
           <h1 className=' relative text-2xl left-[1rem] mt-8 text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text md:text-5xl md:left-[7rem] lg:ml-[12rem] '>Yoga</h1>
-       <ul className=' hidden text-[#220953] md:hidden text-lg font-medium space-x-10 lg:mt-10 relative justify-center lg:ml-[32rem] lg:block lg:flex  '>
+       <ul className=' hidden md:hidden text-lg font-medium space-x-10 lg:mt-10 relative justify-center lg:ml-[32rem] lg:block lg:flex  '>
           <li className=' text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text'> 
              <Link href='/'> Home</Link>
           </li>
