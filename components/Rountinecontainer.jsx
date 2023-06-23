@@ -24,8 +24,8 @@ export default function Rountinecontainer() {
         </div>
           
         <div className='routineyoga md:bottom-[63rem] md:ml-[22rem] relative lg:ml-[41rem] '>
-        <Image className=' relative  left-8 bottom-10 md:top-[-10rem] md:w-[75%] lg:w-[70%] ' src={routineyoga1} alt='daylight' height={80} width={280}/>
-        <Image className=' relative md:-mt-32 left-16 bottom-24 -z-10 md:w-[75%] lg:w-[70%]  ' src={routineyoga2} alt='daylight' height={80} width={280}/>
+        <Image className=' relative  left-8 bottom-10 md:top-[-10rem] md:w-[75%] lg:w-[50%] ' src={routineyoga1} alt='daylight' height={80} width={280}/>
+        <Image className=' relative md:-mt-32 left-16 bottom-24 -z-10 md:w-[75%] lg:w-[50%]  ' src={routineyoga2} alt='daylight' height={80} width={280}/>
         <Image className=' -mt-32 relative top-[-2rem] ml-[4rem]   ' src={Boxroutine2} alt='daylight' height={80} width={150}/>
         <Image className=' -mt-32 top-[-11rem] ml-[11rem] md:ml-[17rem] md:-top-[14rem] relative' src={Boxroutine1} alt='daylight' height={80} width={150}/>
         </div>
