@@ -15,15 +15,15 @@ export default function Folowcontainer() {
     <div>
         
        <div className=' mb-32 md:-mt-[57rem]'>
-        <p className="follow text-[#220953]  text-center relative top-32 text-5xl md:w-[50%] md:ml-[12rem] md:leading-normal  ">Follow Us On Instagram </p>
+        <p className="follow text-[#220953]  text-center relative top-32 text-5xl md:w-[50%] md:ml-[12rem] md:leading-normal lg:text-center lg:w-[30%] lg:ml-[28rem]  ">Follow Us On Instagram </p>
         <p  style={gradientStyle} className=" p-2 yola relative top-32 text-center text-5xl  ">#YOGA</p>
-        <Image className=' relative top-[11rem] ml-[8rem] md:ml-[23rem] md:w-[7%] md:top-[9rem] ' src={Buttonfollow} alt='daylight' height={80} width={100}/>
+        <Image className=' relative top-[11rem] ml-[8rem] md:ml-[23rem] md:w-[7%] md:top-[9rem] lg:ml-[37rem] ' src={Buttonfollow} alt='daylight' height={80} width={100}/>
        </div>
        <div className=' followyoga md:-mt-32 '>
-       <Image className=' md:-mt-32 relative top-20 ml-10 md:ml-[6.5rem] md:-top-[11rem] ' src={followyoga1} alt='daylight' height={80} width={140}/>
-       <Image className=' md:-mt-32 ml-48 relative bottom-20 md:ml-[35rem] md:-top-[16rem] ' src={followyoga2} alt='daylight' height={80} width={140}/>
-       <Image className=' md:-mt-32 ml-10 relative bottom-20 md:ml-[9rem] md:top-[-2rem]  ' src={followyoga3} alt='daylight' height={80} width={240}/>
-       <Image className=' md:-mt-32 ml-24 relative bottom-14 md:ml-[26rem] md:top-[-4rem]  ' src={followyoga4} alt='daylight' height={80} width={240}/>
+       <Image className=' md:-mt-32 relative top-20 ml-10 md:ml-[6.5rem] md:-top-[11rem] lg:ml-[21rem] ' src={followyoga1} alt='daylight' height={80} width={140}/>
+       <Image className=' md:-mt-32 ml-48 relative bottom-20 md:ml-[35rem] md:-top-[16rem] lg:ml-[51rem] ' src={followyoga2} alt='daylight' height={80} width={140}/>
+       <Image className=' md:-mt-32 ml-10 relative bottom-20 md:ml-[9rem] md:top-[-2rem] lg:ml-[21rem]  ' src={followyoga3} alt='daylight' height={80} width={240}/>
+       <Image className=' md:-mt-32 ml-24 relative bottom-14 md:ml-[26rem] md:top-[-4rem] lg:ml-[46rem]  ' src={followyoga4} alt='daylight' height={80} width={240}/>
        </div>
        
     </div>
