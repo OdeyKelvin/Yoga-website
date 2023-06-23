@@ -29,7 +29,7 @@ yoga@email.com</h2>
 <FaTwitter size={25}/>
 <FaYoutube size={25} />
 </div>
-<div className=' relative lg: bottom-[24rem] lg:ml-[50rem]'> 
+<div className=' relative lg: lg:bottom-[24rem] lg:ml-[50rem]'> 
 <Image className=' relative top-5 ml-8 ' src={copywright} alt='daylight' height={80} width={15}/>
 <h2 className=' text-[#A197B4]  ml-14'>Copyright Bedimcode. All rights reserved</h2>
 

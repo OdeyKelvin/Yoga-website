@@ -37,7 +37,7 @@ export default function Navbar() {
                      <div><Image className='  ml-[17rem] mt-8 relative  md:left-[5 rem] lg:hidden ' src={hambugermenu} alt='daylight' height={80} width={20}/></div>
        </div>
        
-       <div><Image className=' relative right-[3.4rem] mt-8 md:hidden  ' src={daylighticon} alt='daylight' height={80} width={20}/></div>
+      
     {/* Mobile Menu */}
       {/* Overlay */}
       <div
