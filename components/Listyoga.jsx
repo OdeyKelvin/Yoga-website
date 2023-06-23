@@ -12,7 +12,7 @@ export default function Listyoga() {
   };
   return (
     <div>
-      <div className=' relative text-center items-center  md:bottom-[23rem] lg:-mt-[10rem] '>
+      <div className=' relative text-center items-center  md:bottom-[23rem] lg:-mt-[8rem] '>
         <p className=' text-2xl text-[#220953] font-semibold top-12 relative mr-[19rem] md:mr-[42rem] md:top-2 md:text-3xl lg:-top-4 '>#01</p>
         <div className='listyoga md:ml-[3rem] relative md:bottom-10 lg:ml-[19rem] lg:bottom-[4rem]  '>
         <Image className=' relative top-[-3.8rem] z-10 ml-[6rem]  ' src={listyoga} alt='daylight' height={80} width={220}/> 
