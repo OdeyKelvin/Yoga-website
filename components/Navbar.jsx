@@ -17,13 +17,13 @@ export default function Navbar() {
           <li className=' text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text'> 
              <Link href='/'> Home</Link>
           </li>
-          <li className=' text-[#4B3E65]'>
+          <li className=' text-transparent bg-gradient-to-r from-pink-500 to-indigo-500 bg-clip-text'>
              <Link href='/'>Health</Link>
           </li>
-          <li className=' text-[#4B3E65]'>
+          <li>
              <Link href='/'>Routine</Link>
           </li>
-          <li className=' text-[#4B3E65]'>
+          <li>
              <Link href='/'>Follow</Link>
              
           </li>
